@@ -1,3 +1,4 @@
+package lista_04.src;
 abstract class AnimalAB implements AnimalIF {
     private String nome;
     private String tipo;

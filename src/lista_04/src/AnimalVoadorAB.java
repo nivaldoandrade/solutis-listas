@@ -1,3 +1,4 @@
+package lista_04.src;
 abstract class AnimalVoadorAB extends AnimalAB {
     private int qtAssas;
 

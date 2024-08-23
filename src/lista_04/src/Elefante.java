@@ -1,3 +1,4 @@
+package lista_04.src;
 public class Elefante extends AnimalTerrestreAB {
     private int qtdComidaIngerida;
     private int qtdCaminhoPercorrido;
