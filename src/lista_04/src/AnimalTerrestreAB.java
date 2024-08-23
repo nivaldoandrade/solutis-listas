@@ -1,6 +1,9 @@
-abstract class AnimalMarinhoAB extends AnimalAB {
+package lista_04.src;
+abstract class AnimalTerrestreAB extends AnimalAB {
+
     private int qtdPatas;
-    public AnimalMarinhoAB(
+
+    public AnimalTerrestreAB(
             String nome,
             String tipo,
             int idade,
@@ -26,7 +29,7 @@ abstract class AnimalMarinhoAB extends AnimalAB {
     @Override
     public abstract void dormir();
 
-    public void nadar() {
-        System.out.println("O animal está nadando!");
+    public void andar() {
+        System.out.println("O animal está andando!");
     }
 }

@@ -1,9 +1,10 @@
-public class Gato extends AnimalTerrestreAB {
+package lista_04.src;
+public class Peixe extends AnimalMarinhoAB{
     private int qtdComidaIngerida;
     private int qtdCaminhoPercorrido;
     private int qtdHorasDormida;
 
-    public Gato(
+    public Peixe(
             String nome,
             String tipo,
             int idade,
@@ -18,22 +19,21 @@ public class Gato extends AnimalTerrestreAB {
         this.qtdHorasDormida = 0;
     }
 
-
     @Override
     public void comer() {
         qtdComidaIngerida += 1;
-        System.out.printf("O Gato comeu a quantidade: %d%n", qtdComidaIngerida);
+        System.out.printf("O Peixe comeu a quantidade: %d%n", qtdComidaIngerida);
     }
 
     @Override
     public void moverse() {
         qtdCaminhoPercorrido += 10;
-        System.out.printf("O Gato percorreu a quantidade: %d%n", qtdCaminhoPercorrido);
+        System.out.printf("O Peixe percorreu a quantidade: %d%n", qtdCaminhoPercorrido);
     }
 
     @Override
     public void dormir() {
         qtdHorasDormida += 8;
-        System.out.printf("O Gato dormiu a quantidade: %d %n", qtdHorasDormida);
+        System.out.printf("O Peixe dormiu a quantidade: %d %n", qtdHorasDormida);
     }
 }

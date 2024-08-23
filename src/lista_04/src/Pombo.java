@@ -1,3 +1,4 @@
+package lista_04.src;
 public class Pombo extends AnimalVoadorAB {
     private int qtdComidaIngerida;
     private int qtdCaminhoPercorrido;
